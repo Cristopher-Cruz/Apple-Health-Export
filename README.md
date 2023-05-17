@@ -1,6 +1,6 @@
-Export your apple health data and extract the fields you are interested in
+The apple fitness and health apps do a great job of storing and displaying your information within the application. What if you wanted to do take your data, like your workouts logged for the year, and publish it on your website/platform ? 
 
-Follow the steps below : 
+First we need to do the following: 
 
         1. Open the Health app on your iPhone
         2. Click on the Account icon and scroll down to "Export All Health Data"
