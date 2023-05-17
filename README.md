@@ -2,7 +2,7 @@
 
 This repository provides some useful information for extracting specific data from the Apple health app given in the form of an XML file. Luckily the process of extracting data from a very large file is made simple through python (read below). 
 
-First we need to do the following: 
+First export the data file:
 
         1. Open the Health app on your iPhone
         2. Click on the Account icon and scroll down to "Export All Health Data"
@@ -21,6 +21,7 @@ This export file will contain the following :
 
 # XML 
 
+Extensible Markup Language (XML) is a markup language and file format used for storing, transmitting, and overall management of data. If you are unfamiliar with XML, i highly recommend taking a look mozilla's [XML introduction](https://developer.mozilla.org/en-US/docs/Web/XML/XML_introduction)
 
 Opening the file can be alarming as there are thousands of lines of data, but we can browse the file to take a closer look at how the elements are stored. This will help us with knowing how to refer to the elements we want to extract later. Here our element of interest is the "Workout" element and its contents
 
@@ -40,7 +41,7 @@ https://developer.apple.com/documentation/healthkit/hkworkouttype
 
 # Python :
 
-To extract the desired data, we can utilize Python's powerful capabilities and leverage its rich collection of frameworks, including the highly useful pandas library for efficient data analysis:
+To extract specific elements of interest from this large XML file, we can use Python to write our own parsing logic and leverage its rich collection of frameworks for data handling and analysis. In this case we are using *Pandas* to put the collected pieces of information into a much more succint dataframe.
 ```python
 import datetime
 import pandas as pd
