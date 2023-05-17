@@ -1,3 +1,5 @@
+# Exporting apple Health app data using python
+
 The apple fitness and health apps do a great job of storing and displaying your information within the application. What if you wanted to do take your data, like your workouts logged for the year, and publish it on your website/platform ? 
 
 First we need to do the following: 
