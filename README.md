@@ -1,6 +1,6 @@
 # Exporting Apple Health data using Python
 
-The apple fitness and health apps do a great job of storing and displaying your information within the application. What if you wanted to  take your data, like your workouts logged for the year, and publish it to your personal website/platform ? This information can be useful for many things and luckily the process of extracting is quite simple (read below).
+This repository provides some useful information for extracting specific data from the Apple health app given in the form of an XML file. Luckily the process of extracting data from a very large file is made simple through python (read below). 
 
 First we need to do the following: 
 
