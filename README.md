@@ -48,7 +48,7 @@ import pandas as pd
 import xml.etree.ElementTree as ET
 ```
 
-We can then parse the XML file using the ElementTree module. Make sure to specify the correct path/location of to your export.xml file 
+We parse the XML file using the ElementTree module. Make sure to specify the correct path/location of to your export.xml file 
 ```python
 tree = ET.parse('data/export.xml')
 root = tree.getroot()
