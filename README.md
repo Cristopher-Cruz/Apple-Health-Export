@@ -101,7 +101,8 @@ Output to the console: <br>
         Process finished with exit code 0
 
 
-Finally, you can decide how to export the data you collected : 
+Finally, you can decide how to export the data you collected. In this particular case, we export our dataframe into a csv file and an html file.
+
 ```python
 # Create a pandas DataFrame from the extracted data
 df = pd.DataFrame(data)
@@ -112,3 +113,6 @@ df.to_csv('workout_data.csv', index=False)
 # Save DataFrame to html
 html = df.to_html('workout_data.html')
 ```
+
+
+
