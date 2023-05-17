@@ -30,7 +30,7 @@ Opening the file can be alarming as there are thousands of lines of data, but we
 
 # HealthKit :
 
-If you are curious or uncertain about a particular element or attribute, you can browse through the [HealthKit documentation](https://developer.apple.com/documentation/healthkit) for more details :
+If you are curious or uncertain about a particular element or attribute, you can browse through Apple's [HealthKit documentation](https://developer.apple.com/documentation/healthkit) for more details :
 
 ![Alt text](workoutactivitytype.png)
 
