@@ -21,7 +21,7 @@ This export file will contain the following :
 
 # XML 
 
-Extensible Markup Language (XML) is a markup language and file format used for storing, transmitting, and overall management of data. If you are unfamiliar with XML, i highly recommend taking a look mozilla's [XML introduction](https://developer.mozilla.org/en-US/docs/Web/XML/XML_introduction)
+Extensible Markup Language (XML) is a markup language and file format used for storing and transmitting structured data. If you are unfamiliar with XML, i highly recommend taking a look mozilla's [XML introduction](https://developer.mozilla.org/en-US/docs/Web/XML/XML_introduction)
 
 Opening the file can be alarming as there are thousands of lines of data, but we can browse the file to take a closer look at how the elements are stored. This will help us with knowing how to refer to the elements we want to extract later. Here our element of interest is the "Workout" element and its contents
 
