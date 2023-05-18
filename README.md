@@ -76,7 +76,7 @@ for workout in root.iter('Workout'):
 ```
 
 
-If you are interested in one or two specific fields from your data frame, you might find it easier to print the target data out to the console and copy/paste directly : For example here we extract the distance element and print it along with the startDate * Note : we can infer on the type (miles in the case of distance) through the element properties in XML. For simplicity, we added it manually with string concatenation:
+If you are interested in one or two specific fields from your data frame, you might find it easier to print the target data out to the console and copy/paste directly : For example here we extract the distance element and print it along with the startDate * Note : we can infer on the measure type (miles in this case for distance) through the "unit" attribute of "WorkoutStatistics" in the XML. For simplicity, we added it manually with string concatenation instead:
 
 ```python
 ...
